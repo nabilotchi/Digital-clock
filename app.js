@@ -31,11 +31,3 @@ const switcher = document.querySelector('.switch');
 switcher.addEventListener("click", ()=>{
         body.classList.toggle('toggle');
 });
-
-//*logo
-
-window.onload = () => {
-    setTimeout(() => {
-      document.querySelector("body").classList.add("dislogo");
-    }, 1000);
-  };
